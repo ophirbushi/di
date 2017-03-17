@@ -1,10 +1,10 @@
 {
   "name": "di",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-test":"tsc -p ./test",
+    "build-test": "tsc -p ./test",
     "test": "node ./test/test.js",
     "build": "tsc -p ./src",
     "watch": "tsc -w -p ./src"
