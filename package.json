@@ -1,0 +1,19 @@
+{
+  "name": "di",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ophirbushi/di.git"
+  },
+  "author": "Ophir Bushinsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ophirbushi/di/issues"
+  },
+  "homepage": "https://github.com/ophirbushi/di#readme"
+}
