@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-test":"tsc -p ./test",
+    "test": "node ./test/test.js",
+    "build": "tsc -p ./src",
+    "watch": "tsc -w -p ./src"
   },
   "repository": {
     "type": "git",

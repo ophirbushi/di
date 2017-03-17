@@ -8,7 +8,7 @@ export class Injector {
             return this._instances[cls.toString()];
         }
 
-        const params: any[] = Reflect.getMetadata(InjectionToken, cls);
+        const params: any[] = Reflect.getMetadata(InjectionToken, cls) || [];
 
         const paramInstances = params.map(p => this.inject(p));
 
@@ -19,3 +19,4 @@ export class Injector {
         return instance;
     }
 }
+ 
