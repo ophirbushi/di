@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ophirbushi/di/issues"
   },
-  "homepage": "https://github.com/ophirbushi/di#readme"
+  "homepage": "https://github.com/ophirbushi/di#readme",
+  "dependencies": {
+    "@types/reflect-metadata": "0.0.5",
+    "reflect-metadata": "^0.1.10"
+  }
 }
